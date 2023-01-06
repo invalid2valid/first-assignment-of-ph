@@ -41,10 +41,12 @@ header {
     font-size: 20px;
     margin: 16px;
 }
-.p-btn:hover{
+
+.p-btn:hover {
     color: #F15B22;
     background: white;
 }
+
 /* main */
 /* My failures of previous year */
 .failures {
@@ -116,17 +118,18 @@ header {
     font-weight: 600;
     font-size: 20px;
 }
-.s-btn:hover{
+
+.s-btn:hover {
     color: white;
     background: #F15B22;
 }
 
-.call-now{
-    padding: 130px ;
+.call-now {
+    padding: 130px;
 }
 
 .call-now-bg {
-    background-image: url('./images/watch.png'), linear-gradient(90deg,  rgb(241, 91, 34) 0%, rgba(241, 91, 34, 0) 100%);
+    background-image: url('./images/watch.png'), linear-gradient(90deg, rgb(241, 91, 34) 0%, rgba(241, 91, 34, 0) 100%);
     background-repeat: no-repeat;
     margin: auto;
     height: 300px;
@@ -137,59 +140,143 @@ header {
 
 }
 
-.call-now-text{
+.call-now-text {
     padding: 80px 65px;
-   
+
 }
+
 .call-now-text>h3 {
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     color: #FFFFFF;
     margin-bottom: 25px;
-    
+
 }
 
-.f-containar{
+/* habit */
+.section-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+
+    color: #121212;
+}
+
+.nh-text {
+    justify-content: center;
+}
+
+.section-des {
+    font-weight: 400;
+    font-size: 18px;
+    padding: 20px 0 50px 0;
+    margin: auto;
+    /* or 156% */
+
+    text-align: center;
+    width: 50%;
+    color: #707070;
+
+}
+
+.box-container {
+    display: flex;
+    margin: 0 160px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.box {
+    width: 360px;
+    margin-bottom: 130px;
+    height: 200px;
+    border-radius: 5px;
+
+}
+
+.box-title {
+    font-weight: 600;
+    margin-top: 15px ;
+    font-size: 24px;
+    color: #121212;
+    padding: 16px 23px;
+}
+
+.box-des {
+    font-weight: 400;
+    font-size: 16px;
+    padding: 16px 23px;
+    color: #707070;
+}
+
+.box-1 {
+    background: rgba(79, 92, 166, 0.1);
+}
+
+.box-2 {
+    background: rgba(218, 10, 10, 0.1);
+}
+
+.box-3 {
+    background: rgb(178, 205, 250);
+}
+
+.box>img {
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+/* footer */
+.f-containar {
     background: #151414;
     padding: 130px 0;
     display: flex;
     justify-content: center;
     gap: 300px;
 }
-.info{
-    width:30%;
+
+.info {
+    width: 30%;
 }
-.info-title{
+
+.info-title {
     font-size: 45px;
-color: #F8F8F8;
+    color: #F8F8F8;
 
 }
-.description-2{
- margin: 16px 0;
+
+.description-2 {
+    margin: 16px 0;
     line-height: 26px;
     color: #ffffff;
 }
-.f-images>img{
+
+.f-images>img {
     margin: 16px 16px 0 0;
 }
-.user-input>h4{
+
+.user-input>h4 {
     font-weight: 600;
-font-size: 25px;
-color: white ;
+    font-size: 25px;
+    color: white;
 
 
 }
-.user-input>input{
-    margin: 32px 0 16px 0 ;
-    padding: 22px ;
+
+.user-input>input {
+    margin: 32px 0 16px 0;
+    padding: 22px;
     width: 325px;
     border: 1px solid #979797;
     border-radius: 8px;
     font-size: 18px;
-    color:#979797;
+    color: #979797;
     background: #151414;
 }
-.user-input>input:focus{
+
+.user-input>input:focus {
     outline: none;
 }
