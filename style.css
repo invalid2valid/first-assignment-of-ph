@@ -41,7 +41,10 @@ header {
     font-size: 20px;
     margin: 16px;
 }
-
+.p-btn:hover{
+    color: #F15B22;
+    background: white;
+}
 /* main */
 /* My failures of previous year */
 .failures {
@@ -52,7 +55,7 @@ header {
     justify-content: center;
     align-items: center;
 
-    gap: 30px
+    gap: 7%;
 }
 
 .failures.text {
@@ -112,7 +115,10 @@ header {
     border: 0;
     font-weight: 600;
     font-size: 20px;
-    
+}
+.s-btn:hover{
+    color: white;
+    background: #F15B22;
 }
 
 .call-now{
@@ -142,4 +148,48 @@ header {
     color: #FFFFFF;
     margin-bottom: 25px;
     
+}
+
+.f-containar{
+    background: #151414;
+    padding: 130px 0;
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+}
+.info{
+    width:30%;
+}
+.info-title{
+    font-size: 45px;
+color: #F8F8F8;
+
+}
+.description-2{
+ margin: 16px 0;
+    line-height: 26px;
+    color: #ffffff;
+}
+.f-images>img{
+    margin: 16px 16px 0 0;
+}
+.user-input>h4{
+    font-weight: 600;
+font-size: 25px;
+color: white ;
+
+
+}
+.user-input>input{
+    margin: 32px 0 16px 0 ;
+    padding: 22px ;
+    width: 325px;
+    border: 1px solid #979797;
+    border-radius: 8px;
+    font-size: 18px;
+    color:#979797;
+    background: #151414;
+}
+.user-input>input:focus{
+    outline: none;
 }
