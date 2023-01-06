@@ -7,12 +7,12 @@ header {
     background-image: url("./images/banner/banner2.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 100vh;
     /* background-blend-mode: overlay; */
 }
 
 .banner {
-    padding: 216px 230px 24px 900px;
+    padding: 12% 230px 0 40%;
     text-align: right;
 }
 
@@ -26,21 +26,78 @@ header {
 
 .description {
     margin: 16px;
-    font-weight: 400;
-    font-size: 16px;
+
     line-height: 26px;
     color: #444343;
 }
-.p-btn{
+
+.p-btn {
     color: white;
     background: #F15B22;
-border-radius: 5px;
-padding: 20px 25px;
-border: 0;
-font-weight: 600;
-font-size: 20px;
-margin: 16px;
+    border-radius: 5px;
+    padding: 20px 25px;
+    border: 0;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 16px;
 }
 
 /* main */
 /* My failures of previous year */
+.failures {
+    margin: auto;
+    padding: 130px 0;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px
+}
+
+.failures.text {
+    width: 400px;
+}
+
+.failures-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin: 16px;
+
+}
+
+.failures-list {
+    list-style: none;
+    color: #444343;
+    padding: 0;
+
+}
+
+.failures-list>li {
+    margin: 8px 0 8px 16px;
+}
+
+/* my plans */
+.plan-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.topic-container{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    
+}
+.topic{
+    text-align: center;
+}
+.topic-title{
+    font-weight: 700;
+font-size: 30px;
+color: #151414;
+margin: 25px 0 15px 0;
+}
+
