@@ -85,19 +85,61 @@ header {
     text-align: center;
     margin-bottom: 50px;
 }
-.topic-container{
+
+.topic-container {
     display: flex;
     justify-content: center;
     gap: 100px;
-    
-}
-.topic{
-    text-align: center;
-}
-.topic-title{
-    font-weight: 700;
-font-size: 30px;
-color: #151414;
-margin: 25px 0 15px 0;
+
 }
 
+.topic {
+    text-align: center;
+}
+
+.topic-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin: 25px 0 15px 0;
+}
+
+.s-btn {
+    color: #F15B22;
+    background: white;
+    border-radius: 5px;
+    padding: 20px 25px;
+    border: 0;
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+
+.call-now{
+    padding: 130px ;
+}
+
+.call-now-bg {
+    background-image: url('./images/watch.png'), linear-gradient(90deg,  rgb(241, 91, 34) 0%, rgba(241, 91, 34, 0) 100%);
+    background-repeat: no-repeat;
+    margin: auto;
+    height: 300px;
+    width: 1140px;
+    border-radius: 8px;
+    background-blend-mode: overlay;
+
+
+}
+
+.call-now-text{
+    padding: 80px 65px;
+   
+}
+.call-now-text>h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    
+}
